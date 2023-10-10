@@ -1,0 +1,12 @@
+LOCATORS
+
+Home page
+
+SEARCH_FIELD = By.ID, 'field-6'
+FILTERS = By.CSS_Selector, ''a.filter-button.w-inline-block[wized="openFiltersWindow"]'
+TOTAL_PROJECTS_HEADER = By.CSS_Selector, 'div.page-title'
+TOTAL_PROJECTS_COUNTER = By.CSS_Selector, 'div.properties-counter'
+PROPERTY_CARDS = By.CSS_Selector, 'a[wized="cardOfProperty"]'  # results display 24 per page
+OPEN_MAP = By.CSS_Selector, 'a.map-button.static.w-inline-block'
+SETTINGS_MENU = By.CSS_Selector, 'div.logo-menu-block [href*="settings"]'
+OFF_PLAN_MENU = ?? can't narrow this one down by CSS or XPATH...there is an ID but it looks strange - will this be okay to use as a locator?
