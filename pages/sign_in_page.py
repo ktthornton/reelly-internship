@@ -4,8 +4,8 @@ from pages.base_page import Page
 
 
 class SignInPage(Page):
-    SIGNIN_EMAIL = (By.CSS_SELECTOR, 'input.input.w-input[type="email"]')
-    SIGNIN_PW = (By.CSS_SELECTOR, 'input.input.w-input[type="password"]')
+    SIGNIN_EMAIL = (By.ID, 'email-2')
+    SIGNIN_PW = (By.ID, 'field')
     SIGNIN_CONTINUE = (By.CSS_SELECTOR, 'a.login-button.w-button')
 
     def sign_in_username(self):
