@@ -9,21 +9,24 @@ from app.application import Application
 from support.logger import logger
 
 
+
 def browser_init(context):# pass scenario.name here as well if using BrowserStack)
     """
     :param context: Behave context
     """
 
     ### CHROME ###
-    service = Service(executable_path=r'C:\Users\ktknu\reelly-internship\chromedriver.exe')
-    context.driver = webdriver.Chrome(service=service)
+    # service = Service(executable_path=r'C:\Users\ktknu\reelly-internship\chromedriver.exe')
+    # context.driver = webdriver.Chrome(service=service)
 
     # FIREFOX ###
-    # service = Service(executable_path=r'C:\Users\ktknu\reelly-internship\geckodriver.exe')
-    # context.driver = webdriver.Firefox(service=service)
+    service = Service(executable_path=r'C:\Users\ktknu\reelly-internship\geckodriver.exe')
+    context.driver = webdriver.Firefox(service=service)
 
     ### HEADLESS MODE ####
     # options = webdriver.ChromeOptions()
+    # options.add_argument("--window-size=1920,1080")
+    # options.add_argument("--start-maximized")
     # options.add_argument('--headless')
     # service = Service(executable_path=r'C:\Users\ktknu\reelly-internship\chromedriver.exe')
     # context.driver = webdriver.Chrome(

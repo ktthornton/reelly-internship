@@ -1,9 +1,11 @@
 from behave import given, when, then
+from time import sleep
 
 
 @given('User signs in to Reelly site')
 def open_add_project(context):
     context.app.base_page.open_url()
+    sleep(3)  # adding sleep - seems to take a second to load the page before being able to log in
     context.app.sign_in_page.sign_in_username()
     context.app.sign_in_page.sign_in_password()
     context.app.sign_in_page.click_signin()
