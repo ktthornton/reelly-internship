@@ -15,7 +15,6 @@ class Page:
         self.driver.get(url)
         logger.info(f'Opening URL {url}')
         sleep(2)
-        self.driver.refresh()
 
     def click(self, *locator):
         logger.info(f'Clicking on {locator}')

@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-
+from time import sleep
 from pages.base_page import Page
 
 
@@ -11,6 +11,7 @@ class SettingsPage(Page):
         self.click(*self.ADD_PROJECT_BTN)
 
     def click_settings(self, *locator):
+        # sleep(3)  # need to add a sleep here if using Safari in BS
         self.click(*self.SETTINGS_MENU)
 
 
