@@ -1,0 +1,64 @@
+2023-10-24 15:37:55,413 - support.logger - INFO - Opening URL https://soft.reelly.io/sign-in
+2023-10-24 15:38:00,415 - support.logger - INFO - Inputting text: "ktlnknutn@gmail.com"
+2023-10-24 15:38:01,229 - support.logger - INFO - Inputting text: "ARizonaa16!"
+2023-10-24 15:38:01,742 - support.logger - INFO - Clicking on ('css selector', 'a.login-button.w-button')
+2023-10-24 15:38:02,050 - support.logger - INFO - Clicking on ('css selector', 'div.logo-menu-block [href*="settings"]')
+2023-10-24 15:38:02,927 - support.logger - ERROR - Step failed: <when "Click Settings">
+2023-10-24 15:38:15,360 - support.logger - INFO - Opening URL https://soft.reelly.io/sign-in
+2023-10-24 15:38:20,383 - support.logger - INFO - Inputting text: "ktlnknutn@gmail.com"
+2023-10-24 15:38:21,091 - support.logger - INFO - Inputting text: "ARizonaa16!"
+2023-10-24 15:38:21,606 - support.logger - INFO - Clicking on ('css selector', 'a.login-button.w-button')
+2023-10-24 15:38:21,915 - support.logger - INFO - Clicking on ('css selector', 'div.logo-menu-block [href*="settings"]')
+2023-10-24 15:38:22,838 - support.logger - ERROR - Step failed: <when "Click Settings">
+2023-10-24 15:38:32,563 - support.logger - INFO - Opening URL https://soft.reelly.io/sign-in
+2023-10-24 15:38:37,565 - support.logger - INFO - Inputting text: "ktlnknutn@gmail.com"
+2023-10-24 15:38:38,195 - support.logger - INFO - Inputting text: "ARizonaa16!"
+2023-10-24 15:38:38,708 - support.logger - INFO - Clicking on ('css selector', 'a.login-button.w-button')
+2023-10-24 15:38:39,221 - support.logger - INFO - Clicking on ('css selector', 'div.logo-menu-block [href*="settings"]')
+2023-10-24 15:38:39,760 - support.logger - ERROR - Step failed: <when "Click Settings">
+2023-10-24 15:39:36,358 - support.logger - INFO - Opening URL https://soft.reelly.io/sign-in
+2023-10-24 15:39:41,360 - support.logger - INFO - Inputting text: "ktlnknutn@gmail.com"
+2023-10-24 15:39:42,191 - support.logger - INFO - Inputting text: "ARizonaa16!"
+2023-10-24 15:39:42,709 - support.logger - INFO - Clicking on ('css selector', 'a.login-button.w-button')
+2023-10-24 15:39:43,016 - support.logger - INFO - Clicking on ('css selector', 'div.logo-menu-block [href*="settings"]')
+2023-10-24 15:39:43,943 - support.logger - ERROR - Step failed: <when "Click Settings">
+2023-10-24 15:40:49,155 - support.logger - INFO - Opening URL https://soft.reelly.io/sign-in
+2023-10-24 15:40:54,157 - support.logger - INFO - Inputting text: "ktlnknutn@gmail.com"
+2023-10-24 15:40:54,338 - support.logger - INFO - Inputting text: "ARizonaa16!"
+2023-10-24 15:40:54,451 - support.logger - INFO - Clicking on ('css selector', 'a.login-button.w-button')
+2023-10-24 15:40:54,587 - support.logger - INFO - Clicking on ('css selector', 'div.logo-menu-block [href*="settings"]')
+2023-10-24 15:40:59,698 - support.logger - INFO - Clicking on ('css selector', 'a.page-setting-block.w-inline-block[href*="add-a-project"]')
+2023-10-24 15:41:57,321 - support.logger - INFO - Opening URL https://soft.reelly.io/sign-in
+2023-10-24 15:42:02,323 - support.logger - INFO - Inputting text: "ktlnknutn@gmail.com"
+2023-10-24 15:42:02,475 - support.logger - INFO - Inputting text: "ARizonaa16!"
+2023-10-24 15:42:02,593 - support.logger - INFO - Clicking on ('css selector', 'a.login-button.w-button')
+2023-10-24 15:42:02,703 - support.logger - INFO - Clicking on ('css selector', 'div.logo-menu-block [href*="settings"]')
+2023-10-24 15:42:07,824 - support.logger - INFO - Clicking on ('css selector', 'a.page-setting-block.w-inline-block[href*="add-a-project"]')
+2023-10-24 15:42:19,175 - support.logger - INFO - Opening URL https://soft.reelly.io/sign-in
+2023-10-24 15:42:24,177 - support.logger - INFO - Inputting text: "ktlnknutn@gmail.com"
+2023-10-24 15:42:24,333 - support.logger - INFO - Inputting text: "ARizonaa16!"
+2023-10-24 15:42:24,452 - support.logger - INFO - Clicking on ('css selector', 'a.login-button.w-button')
+2023-10-24 15:42:24,557 - support.logger - INFO - Clicking on ('css selector', 'div.logo-menu-block [href*="settings"]')
+2023-10-24 15:42:28,672 - support.logger - INFO - Clicking on ('css selector', 'a.page-setting-block.w-inline-block[href*="add-a-project"]')
+2023-10-24 15:42:39,635 - support.logger - INFO - Opening URL https://soft.reelly.io/sign-in
+2023-10-24 15:42:44,636 - support.logger - INFO - Inputting text: "ktlnknutn@gmail.com"
+2023-10-24 15:42:44,785 - support.logger - INFO - Inputting text: "ARizonaa16!"
+2023-10-24 15:42:44,895 - support.logger - INFO - Clicking on ('css selector', 'a.login-button.w-button')
+2023-10-24 15:42:44,992 - support.logger - INFO - Clicking on ('css selector', 'div.logo-menu-block [href*="settings"]')
+2023-10-24 15:42:49,594 - support.logger - INFO - Clicking on ('css selector', 'a.page-setting-block.w-inline-block[href*="add-a-project"]')
+2023-10-24 15:42:50,770 - support.logger - INFO - Inputting text: "test name"
+2023-10-24 15:42:59,056 - support.logger - INFO - Inputting text: "test company"
+2023-10-24 15:42:59,167 - support.logger - INFO - Inputting text: "Manager"
+2023-10-24 15:42:59,252 - support.logger - INFO - Inputting text: "12 years"
+2023-10-24 15:42:59,331 - support.logger - INFO - Inputting text: "United States"
+2023-10-24 15:42:59,425 - support.logger - INFO - Inputting text: "Test Project"
+2023-10-24 15:42:59,518 - support.logger - INFO - Inputting text: "123-456-7890"
+2023-10-24 15:42:59,609 - support.logger - INFO - Inputting text: "test@email.com"
+2023-10-24 15:43:02,697 - support.logger - INFO - Searching for ('id', 'Your-name')
+2023-10-24 15:43:02,723 - support.logger - INFO - Searching for ('id', 'Your-company-name')
+2023-10-24 15:43:02,745 - support.logger - INFO - Searching for ('id', 'Role')
+2023-10-24 15:43:02,764 - support.logger - INFO - Searching for ('id', 'Age-of-the-company')
+2023-10-24 15:43:02,785 - support.logger - INFO - Searching for ('id', 'Country')
+2023-10-24 15:43:02,803 - support.logger - INFO - Searching for ('id', 'Name-project')
+2023-10-24 15:43:02,822 - support.logger - INFO - Searching for ('id', 'Phone')
+2023-10-24 15:43:02,841 - support.logger - INFO - Searching for ('id', 'Email-add-project')
