@@ -63,6 +63,7 @@ class AddProjectPage(Page):
             f'Error, expected {self.expected_text_email} did not match actual {actual_email}'
 
     def verify_send_application_clickable(self, *locator):
+        sleep(3)  # need to add a sleep here if using Safari in BS
         self.wait_for_element_clickable(self.SEND_APPLICATION_BTN)
 
     def verify_add_project_url(self):

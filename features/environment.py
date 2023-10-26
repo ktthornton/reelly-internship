@@ -15,8 +15,8 @@ def browser_init(context):  # pass scenario_name here as well if using BrowserSt
     """
 
     ### CHROME ###
-    service = Service(executable_path=r'C:\Users\ktknu\reelly-internship\chromedriver.exe')
-    context.driver = webdriver.Chrome(service=service)
+    # service = Service(executable_path=r'C:\Users\ktknu\reelly-internship\chromedriver.exe')
+    # context.driver = webdriver.Chrome(service=service)
 
     # FIREFOX ###
     # service = Service(executable_path=r'C:\Users\ktknu\reelly-internship\geckodriver.exe')
@@ -48,6 +48,42 @@ def browser_init(context):  # pass scenario_name here as well if using BrowserSt
     # }
     # options.set_capability('bstack:options', bstack_options)
     # context.driver = webdriver.Remote(command_executor=url, options=options)
+    ###
+
+    ### CHOME MOBILE EMULATION ###
+    mobile_emulation = {
+        "deviceName": "Pixel 5",
+        # "deviceMetrics": {"width": 393, "height": 851},
+        # "deviceName": "iPhone SE"
+        # "deviceMetrics": {"width": 375, "height": 667},
+        # "deviceName": "iPhone XR"
+        # "deviceMetrics": {"width": 414, "height": 896},
+        # "deviceName": "iPhone 12 Pro"
+        # "deviceMetrics": {"width": 390, "height": 844},
+        # "deviceName": "Samsung Galaxy S8+"
+        # "deviceMetrics": {"width": 360, "height": 740},
+        # "deviceName": "Samsung Galaxy S20 Ultra"
+        # "deviceMetrics": {"width": 412, "height": 915},
+        # "deviceName": "iPad Air"
+        # "deviceMetrics": {"width": 820, "height": 1180},
+        # "deviceName": "iPad Mini"
+        # "deviceMetrics": {"width": 768, "height": 1024},
+        # "deviceName": "Surface Pro 7"
+        # "deviceMetrics": {"width": 912, "height": 1368},
+        # "deviceName": "Surface Duo"
+        # "deviceMetrics": {"width": 540, "height": 720},
+        # "deviceName": "Galaxy Fold"
+        # "deviceMetrics": {"width": 280, "height": 653},
+        # "deviceName": "Samsung Galaxy A51/71"
+        # "deviceMetrics": {"width": 412, "height": 914},
+        # "deviceName": "Nest Hub"
+        # "deviceMetrics": {"width": 1024, "height": 600},
+        # "deviceName": "Nest Hub Max"
+        # "deviceMetrics": {"width": 1280, "height": 800},
+    }
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
+    context.driver = webdriver.Chrome(options=chrome_options)
     ###
 
     context.driver.maximize_window()

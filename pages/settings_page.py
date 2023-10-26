@@ -11,7 +11,7 @@ class SettingsPage(Page):
         self.click(*self.ADD_PROJECT_BTN)
 
     def click_settings(self, *locator):
-        # sleep(3)  # need to add a sleep here if using Safari in BS
+        sleep(3)  # need to add a sleep here if using Safari in BS or mobile emulation
         self.click(*self.SETTINGS_MENU)
 
 

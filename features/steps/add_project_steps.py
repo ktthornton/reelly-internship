@@ -18,7 +18,7 @@ def click_settings(context):
 
 @when('Click Add a Project')
 def click_add_project(context):
-    # sleep(3)  # need to add a sleep here if using Safari in BS
+    sleep(3)  # need to add a sleep here if using Safari in BS
     context.app.settings_page.click_add_project()
 
 
